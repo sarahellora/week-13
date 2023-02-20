@@ -3,7 +3,14 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div>
+        <div className="navBar">
+        <a> Home |</a>
+        <a> About us |</a>
+        <a> Contact </a>
+      </div>
+          <div className="formContainer">
+
      <h3> Login Form</h3>
      <div className="loginContainer">
     UserName: <input></input>
@@ -11,6 +18,9 @@ function App() {
       
      </div>
     </div>
+
+    </div>
+    
   );
 }
 
